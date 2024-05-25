@@ -1,0 +1,12 @@
+[package]
+name = "iced_test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+native-dialog = "0.7.0"
+ron = "0.8.1"
+serde = { version = "1.0.202", features = ["derive"] }
+[dependencies.iced]
+git = "https://github.com/iced-rs/iced.git"
+features = ["image"]
